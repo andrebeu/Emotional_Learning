@@ -44,7 +44,7 @@ echo
           -setA "${all_betavolumes}[targetCSplus2#0_Coef]" \
           -labelB "CSminus2"   \
           -setB "${all_betavolumes}[targetCSminus2#0_Coef]" \
-          -prefix "GLMgroup-bucket_TASK-${task}_ROI-${roi}"   \
+          -prefix "GLMgroup-bucket_TASK-${task}_ROI-${roi}"   
 
 
 

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# TBT_CBC options 
+if [ ${1} = "serv" ]; then
+    cd /home/fs01/srm254/visser_replicate/WD_visser_replicate
+fi
+
+chmod u+x GLM_FL.sh
+chmod u+x GLM_FL_group.sh
+chmod u+x GLM_PB.sh
+chmod u+x GLM_PB_group.sh
+chmod u+x make_masks.sh
+chmod u+x olay_mont.sh
+chmod u+x recenter_ROI.sh
+chmod u+x update_mac2server.sh
+chmod u+x remove_subject.sh
+chmod u+x update_server2mac.sh
